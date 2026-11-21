@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>マルシェ運営マニュアル</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family:"M PLUS Rounded 1c", sans-serif;
+    background:#FFFBF3;
+    color:#6B4A2F;
+    font-size:19px;
+    line-height:1.8;
+  }
+  /* 屋根のストライプ */
+  .awning {
+    height:44px;
+    background:repeating-linear-gradient(90deg,#F49E8F 0 34px,#FFF3D6 34px 68px);
+  }
+  .awning-scallop {
+    height:22px;
+    background:
+      radial-gradient(circle at 17px -6px, #F49E8F 16px, transparent 17px),
+      radial-gradient(circle at 51px -6px, #FFF3D6 16px, transparent 17px);
+    background-size:68px 22px;
+    background-repeat:repeat-x;
+  }
+  .wrap { max-width:680px; margin:0 auto; padding:0 20px 56px; }
+  .bunting { display:block; margin:10px auto 0; width:100%; max-width:560px; }
+  h1 {
+    text-align:center;
+    font-size:32px;
+    font-weight:800;
+    letter-spacing:.04em;
+    margin:14px 0 6px;
+  }
+  .sub {
+    text-align:center;
+    font-size:17px;
+    color:#A9805D;
+    margin-bottom:26px;
+  }
+  .intro {
+    background:#fff;
+    border:2px solid #F6DFC8;
+    border-radius:18px;
+    padding:18px 20px;
+    margin-bottom:30px;
+  }
+  .card {
+    display:block;
+    text-decoration:none;
+    color:#6B4A2F;
+    background:#fff;
+    border-radius:20px;
+    padding:22px 22px 18px;
+    margin-bottom:18px;
+    border:2px solid transparent;
+    box-shadow:0 3px 10px rgba(180,130,80,.10);
+  }
+  .card h2 { font-size:24px; font-weight:800; margin-bottom:4px; }
+  .card p { font-size:17px; color:#8A6A4E; }
+  .card .go { font-weight:700; margin-top:8px; font-size:17px; }
+  .c1 { border-color:#F6C6BA; } .c1 .go { color:#E0785F; }
+  .c2 { border-color:#BEE3C2; } .c2 .go { color:#4E9A5F; }
+  .c3 { border-color:#BCD9F7; } .c3 .go { color:#4A7FB5; }
+  .c4 { border-color:#E3CFF2; } .c4 .go { color:#8A63B8; }
+  .note {
+    text-align:center;
+    font-size:15px;
+    color:#B08D68;
+    margin-top:34px;
+  }
+</style>
+</head>
+<body>
+  <div class="awning"></div>
+  <div class="awning-scallop"></div>
+  <div class="wrap">
+    <svg class="bunting" viewBox="0 0 560 60" aria-hidden="true">
+      <path d="M0,6 Q140,52 280,18 Q420,-8 560,34" fill="none" stroke="#C9B8A6" stroke-width="2"/>
+      <polygon points="60,20 84,24 70,46" fill="#F6A8B8"/>
+      <polygon points="130,30 154,32 142,54" fill="#A8D8A8"/>
+      <polygon points="205,28 229,26 220,50" fill="#FBE08A"/>
+      <polygon points="278,18 302,18 292,42" fill="#A8C8EC"/>
+      <polygon points="352,12 376,14 364,38" fill="#D3B8E8"/>
+      <polygon points="428,10 452,14 438,36" fill="#F6A8B8"/>
+      <polygon points="495,20 519,26 504,46" fill="#A8D8A8"/>
+    </svg>
+
+    <h1>マルシェ運営マニュアル</h1>
+    <p class="sub">オンラインマルシェの出店・運営のやり方まとめ</p>
+
+    <div class="intro">
+      このサイトは、オンラインマルシェの出店・運営のやり方をまとめたマニュアルです。<br>
+      やりたいことから選んでね🌷
+    </div>
+
+    <a class="card c1" href="sukumane.html">
+      <h2>スクマネ編</h2>
+      <p>スクマネの仕組みから、登録・基本設定・提出まで。上から順番に進めばOKだよ。</p>
+      <p class="go">読んでみる →</p>
+    </a>
+
+    <a class="card c2" href="checklist.html">
+      <h2>準備チェックリスト</h2>
+      <p>スクマネに登録する前にそろえる16項目のリストだよ。</p>
+      <p class="go">読んでみる →</p>
+    </a>
+
+    <a class="card c3" href="thumbnail.html">
+      <h2>サムネイルの作り方</h2>
+      <p>Canvaのテンプレートで6枚の画像を作る手順だよ。</p>
+      <p class="go">読んでみる →</p>
+    </a>
+
+    <a class="card c4" href="profile.html">
+      <h2>プロフィール画像の作り方</h2>
+      <p>お手持ちの写真を正方形に切り抜く手順だよ。特別なアプリはいらないよ。</p>
+      <p class="go">読んでみる →</p>
+    </a>
+
+    <p class="note">動画はこれから順番に足していくよ🌷</p>
+  </div>
+</body>
+</html>
